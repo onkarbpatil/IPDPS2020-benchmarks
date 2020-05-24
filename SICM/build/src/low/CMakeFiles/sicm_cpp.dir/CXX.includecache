@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/low/public/sicm_cpp.hpp
+sicm_low.h
+../include/low/public/sicm_low.h
+pthread.h
+-
+limits
+-
+
+../include/low/public/sicm_low.h
+stdint.h
+-
+stdlib.h
+-
+sys/types.h
+-
+
+/home/onkarp/IPDPS2020/SICM/src/low/sicm_cpp.cpp
+sicm_cpp.hpp
+/home/onkarp/IPDPS2020/SICM/src/low/sicm_cpp.hpp
+

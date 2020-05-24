@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsicm.a  CMakeFiles/sicm.dir/sicm_low.c.o CMakeFiles/sicm.dir/sicm_arena.c.o
+/usr/bin/ranlib libsicm.a

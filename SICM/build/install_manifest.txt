@@ -1,0 +1,5 @@
+/usr/local/lib/libsicm.a
+/usr/local/lib/libsicm_f90.a
+/usr/local/lib/libsicm_cpp.a
+/usr/local/include//sicm_cpp.hpp
+/usr/local/include//sicm_low.h

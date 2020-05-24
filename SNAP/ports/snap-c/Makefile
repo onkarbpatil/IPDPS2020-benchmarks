@@ -4,9 +4,10 @@ A_TARGET=$(A_PREFIX)$(A_SUFFIX)
 
 #CC=mpiicc			# C compiler command
 #CFLAGS=-mkl -O3 -xAVX -std=c99 -fopenmp -parallel -DUSEMKL -DUSEVML	# C compiler flags
+#CC=OMPI_CC=clang mpicc
 CC=mpicc
-CFLAGS=-O3 -std=c99 -fopenmp -lm -I$(HOME)/memsys19-optane/.optane/SICM/include #-wall	# C compiler flags
-LDFLAGS=-L$(HOME)/memsys19-optane/.optane/SICM/lib -lsicm -L$(HOME)/.skylake/jemalloc/lib -ljemalloc -lnuma -ldl			# Linker flags, e.g. -L<lib dir> if you have libraries in a nonstandard directory <lib dir>
+CFLAGS=-O3 -std=c99 -fopenmp -lm -I/home/onkarp/IPDPS2020/SICM/build/usr/local/include -I/usr/lib/gcc/x86_64-redhat-linux/7/include/ #-wall	# C compiler flags
+LDFLAGS=-L/home/onkarp/IPDPS2020/SICM/build/usr/local/lib -lsicm -L/home/onkarp/jemalloc/jemalloc/build/home/onkarp/jemalloc/jemalloc/build/lib -ljemalloc -lnuma -ldl			# Linker flags, e.g. -L<lib dir> if you have libraries in a nonstandard directory <lib dir>
 LIBS=				# Libraries to pass to the linker, e.g. -l<library>
 CPPFLAGS=			# (Objective) C/C++ preprocessor flags, e.g. -I<include dir> if you have headers in a nonstandard directory <include dir>
 CXX=icc				# C++ compiler command

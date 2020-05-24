@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsicm_cpp.a  CMakeFiles/sicm_cpp.dir/sicm_cpp.cpp.o
+/usr/bin/ranlib libsicm_cpp.a

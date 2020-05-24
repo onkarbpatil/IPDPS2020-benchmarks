@@ -37,8 +37,8 @@ CFLAGS = \
  -I../parcsr_ls\
  -I../krylov\
  ${INCLUDE_CFLAGS}\
+ -I/usr/lib/gcc/x86_64-redhat-linux/7/include/\
  -DHYPRE_TIMING \
- -I$(HOME)/memsys19-optane/.optane/SICM/include
 
 LFLAGS =\
  -L.\
@@ -55,10 +55,10 @@ LFLAGS =\
  -lkrylov\
  -lHYPRE_utilities\
  ${INCLUDE_LFLAGS} \
- -L$(HOME)/memsys19-optane/.optane/SICM/lib \
- -lsicm \
- -L$(HOME)/.optane/jemalloc/lib \
- -ljemalloc \
+ -L/home/onkarp/IPDPS2020/SICM/build/usr/local/lib\
+ -lsicm\
+ -L$(HOME)/jemalloc/jemalloc/build/home/onkarp/jemalloc/jemalloc/build/lib/\
+ -ljemalloc\
  -lnuma
 
 ##################################################################

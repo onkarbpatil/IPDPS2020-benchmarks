@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsicm_f90.a  CMakeFiles/sicm_f90.dir/fbinding_c.c.o
+/usr/bin/ranlib libsicm_f90.a

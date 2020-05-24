@@ -9,6 +9,7 @@ MPI_INC = /opt/local/include/openmpi
 MPI_LIB = /opt/local/lib
 
 SERCXX = g++ -DUSE_MPI=0
+#LLCXX = OMPI_CC=clang mpicc -DUSE_MPI=1
 MPICXX = mpic++ -DUSE_MPI=1
 CXX = $(MPICXX)
 
@@ -21,10 +22,12 @@ SOURCES2.0 = \
 OBJECTS2.0 = $(SOURCES2.0:.cc=.o)
 
 #Default build suggestions with OpenMP for g++
-SICM_PATH=$(HOME)/memsys19-optane/.optane/SICM
-JEMALLOC_PATH=$(HOME)/.optane/jemalloc
-CXXFLAGS = -g -O3 -fopenmp -I. -Wall -I$(SICM_PATH)/include
+SICM_PATH=/home/onkarp/IPDPS2020/SICM/build/usr/local
+JEMALLOC_PATH=$(HOME)/jemalloc/jemalloc/build/home/onkarp/jemalloc/jemalloc/build
+CXXFLAGS = -c -g -O3 -fopenmp -I. -Wall -I$(SICM_PATH)/include/ -I/usr/lib/gcc/x86_64-redhat-linux/7/include/
 LDFLAGS = -g -O3 -fopenmp -L$(SICM_PATH)/lib -lsicm -L$(JEMALLOC_PATH)/lib -ljemalloc -lnuma
+LCXXFLAGS = -c -g -O3 -fopenmp -I. -Wall -I$(SICM_PATH)/include/ -I/usr/lib/gcc/x86_64-redhat-linux/7/include/
+LLDFLAGS = -fopenmp -L$(SICM_PATH)/lib -lsicm -L$(JEMALLOC_PATH)/lib -ljemalloc -lnuma
 
 #Below are reasonable default flags for a serial build
 #CXXFLAGS = -g -O3 -I. -Wall
@@ -46,13 +49,13 @@ LDFLAGS = -g -O3 -fopenmp -L$(SICM_PATH)/lib -lsicm -L$(JEMALLOC_PATH)/lib -ljem
 
 .cc.o: lulesh.h
 	@echo "Building $<"
-	$(CXX) -c $(CXXFLAGS) -o $@  $<
+	$(CXX) $(LCXXFLAGS) -o $@  $<
 
 all: $(LULESH_EXEC)
 
 $(LULESH_EXEC): $(OBJECTS2.0)
 	@echo "Linking"
-	$(CXX) $(OBJECTS2.0) $(LDFLAGS) -lm -o $@
+	$(CXX) -o $@ $(OBJECTS2.0) $(LLDFLAGS) -lm
 
 clean:
 	/bin/rm -f *.o *~ $(OBJECTS) $(LULESH_EXEC)

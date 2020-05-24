@@ -25,6 +25,7 @@
 #CC = gcc
 CC = mpicc
 #CC = mpixlc_r
+#CC=clang mpicc
 
 # set compile flags here
 # MPI only:
@@ -43,10 +44,11 @@ CC = mpicc
 #INCLUDE_CFLAGS = -g -DTIMER_USE_MPI
 #INCLUDE_CFLAGS = -g -DTIMER_USE_MPI -DHYPRE_USING_OPENMP
 #INCLUDE_CFLAGS = -O2 -DTIMER_USE_MPI -DHYPRE_USING_OPENMP -DHYPRE_BIGINT -fopenmp
-INCLUDE_CFLAGS = -O2 -DTIMER_USE_MPI -DHYPRE_USING_OPENMP -fopenmp -DHYPRE_HOPSCOTCH -DHYPRE_USING_PERSISTENT_COMM -DHYPRE_BIGINT -I$(HOME)/memsys19-optane/.optane/SICM/include
+#INCLUDE_CFLAGS = -O2 -DTIMER_USE_MPI -DHYPRE_USING_OPENMP -fopenmp -DHYPRE_HOPSCOTCH -DHYPRE_USING_PERSISTENT_COMM -DHYPRE_BIGINT -I$(HOME)/IPDPS2020/SICM/include
+INCLUDE_CFLAGS = -O2 -DTIMER_USE_MPI -DHYPRE_USING_OPENMP -fopenmp -DHYPRE_HOPSCOTCH -DHYPRE_USING_PERSISTENT_COMM -DHYPRE_BIGINT -I/home/onkarp/IPDPS2020/SICM/build/usr/local/include -L/home/onkarp/IPDPS2020/SICM/build/usr/local/lib -lsicm -L$(HOME)/jemalloc/jemalloc/build/home/onkarp/jemalloc/jemalloc/build/lib/ -ljemalloc -I/usr/lib/gcc/x86_64-redhat-linux/7/include/
 #INCLUDE_CFLAGS = -O2 -DTIMER_USE_MPI -DHYPRE_USING_OPENMP -qsmp=omp -qmaxmem=-1 -DHYPRE_HOPSCOTCH -DHYPRE_USING_PERSISTENT_COMM -DHYPRE_BIGINT
 
 # set link flags here
 #INCLUDE_LFLAGS = -lm -qsmp=omp
-INCLUDE_LFLAGS = -lm -fopenmp -L$(HOME)/sicm/lib -lsicm -L$(HOME)/jemalloc/lib -ljemalloc -lnuma -ldl
+INCLUDE_LFLAGS = -lm -fopenmp -L/home/onkarp/IPDPS2020/SICM/build/usr/local/lib -lsicm -L$(HOME)/jemalloc/jemalloc/build/home/onkarp/jemalloc/jemalloc/build/lib/ -ljemalloc -lnuma -ldl
 #INCLUDE_LFLAGS = -lm

@@ -1,0 +1,1 @@
+/usr/bin/gcc   -rdynamic CMakeFiles/test5.dir/test5.c.o  -o test5 -Wl,-rpath,/home/onkarp/jemalloc/jemalloc/build/home/onkarp/jemalloc/jemalloc/build/lib ../../src/low/libsicm.a -lpthread -ldl -lm /home/onkarp/jemalloc/jemalloc/build/home/onkarp/jemalloc/jemalloc/build/lib/libjemalloc.so -lnuma 

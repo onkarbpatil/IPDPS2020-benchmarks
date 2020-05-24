@@ -1,0 +1,177 @@
+[onkarp@darwin-fe2 results]$ make LIST=x86_64-linux-gnu/optane*
+x86_64-linux-gnu: no data for Memory load parallelism
+x86_64-linux-gnu: lat_mem_rand = 85.854
+x86_64-linux-gnu: no data for mmap reread timing
+x86_64-linux-gnu: no data for Memory load parallelism
+x86_64-linux-gnu: lat_mem_rand = 84.807
+x86_64-linux-gnu: no data for Memory load parallelism
+x86_64-linux-gnu: lat_mem_rand = 85.937
+
+                 L M B E N C H  3 . 0   S U M M A R Y
+                 ------------------------------------
+		 (Alpha software, do not distribute)
+
+Argument "" isn't numeric in numeric gt (>) at ../scripts/getsummary line 944, <FD> line 5528.
+Argument "" isn't numeric in numeric gt (>) at ../scripts/getsummary line 944, <FD> line 5528.
+Argument "" isn't numeric in numeric gt (>) at ../scripts/getsummary line 944, <FD> line 5528.
+
+Processor, Processes - times in microseconds - smaller is better
+------------------------------------------------------------------------------
+Host                 OS  Mhz null null      open slct sig  sig  fork exec sh  
+                             call  I/O stat clos TCP  inst hndl proc proc proc
+--------- ------------- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+optane    Linux 3.10.0- 3885 0.20 0.22 1.60 2.31 2.07 0.27 1.03               
+optane    Linux 3.10.0- 3885 0.19 0.24 1.71 2.55 2.48 0.28 1.10               
+optane    Linux 3.10.0- 3885 0.20 0.22 1.60 2.30 2.05 0.26 1.04               
+
+Basic integer operations - times in nanoseconds - smaller is better
+-------------------------------------------------------------------
+Host                 OS  intgr intgr  intgr  intgr  intgr  
+                          bit   add    mul    div    mod   
+--------- ------------- ------ ------ ------ ------ ------ 
+optane    Linux 3.10.0- 0.2600 0.0300 0.8000 7.3400 7.2700
+optane    Linux 3.10.0- 0.2800 0.0300 0.8300 7.1600 7.4500
+optane    Linux 3.10.0- 0.2600 0.0300 0.8100 6.9600 7.2800
+
+Basic float operations - times in nanoseconds - smaller is better
+-----------------------------------------------------------------
+Host                 OS  float  float  float  float
+                         add    mul    div    bogo
+--------- ------------- ------ ------ ------ ------ 
+optane    Linux 3.10.0- 1.0300 1.0900 2.9500 0.7700
+optane    Linux 3.10.0- 1.0600 1.0500 3.0000 0.7700
+optane    Linux 3.10.0- 1.0300 1.0300 2.9500 0.8100
+
+Basic double operations - times in nanoseconds - smaller is better
+------------------------------------------------------------------
+Host                 OS  double double double double
+                         add    mul    div    bogo
+--------- ------------- ------  ------ ------ ------ 
+optane    Linux 3.10.0- 1.0800 1.0300 3.7200 1.0300
+optane    Linux 3.10.0- 1.0500 1.0500 3.8100 1.0300
+optane    Linux 3.10.0- 1.0300 1.0300 3.7200 1.0300
+
+*Local* Communication latencies in microseconds - smaller is better
+---------------------------------------------------------------------
+Host                 OS 2p/0K  Pipe AF     UDP  RPC/   TCP  RPC/ TCP
+                        ctxsw       UNIX         UDP         TCP conn
+--------- ------------- ----- ----- ---- ----- ----- ----- ----- ----
+optane    Linux 3.10.0-                  7.700 9.626 9.458  11.4  11.
+optane    Linux 3.10.0-                  8.087 9.575 9.327  11.5  11.
+optane    Linux 3.10.0-                  7.857 9.650 9.587  11.6  11.
+
+File & VM system latencies in microseconds - smaller is better
+-------------------------------------------------------------------------------
+Host                 OS   0K File      10K File     Mmap    Prot   Page   100fd
+                        Create Delete Create Delete Latency Fault  Fault  selct
+--------- ------------- ------ ------ ------ ------ ------- ----- ------- -----
+optane    Linux 3.10.0-                               18.7K 0.403         0.956
+optane    Linux 3.10.0-                               24.3K 0.428         1.033
+optane    Linux 3.10.0-                               18.5K 0.417         0.957
+
+*Local* Communication bandwidths in MB/s - bigger is better
+-----------------------------------------------------------------------------
+Host                OS  Pipe AF    TCP  File   Mmap  Bcopy  Bcopy  Mem   Mem
+                             UNIX      reread reread (libc) (hand) read write
+--------- ------------- ---- ---- ---- ------ ------ ------ ------ ---- -----
+optane    Linux 3.10.0-           7969 4717.4 6373.4 3866.4 4117.1 10.K 8819.
+optane    Linux 3.10.0-           7744 2751.3        3904.0 5974.3 9724 8774.
+optane    Linux 3.10.0-           7674 6419.9  10.2K 3873.3 6080.9 9881 8784.
+
+Memory latencies in nanoseconds - smaller is better
+    (WARNING - may not be correct, check graphs)
+------------------------------------------------------------------------------
+Host                 OS   Mhz   L1 $   L2 $    Main mem    Rand mem    Guesses
+--------- -------------   ---   ----   ----    --------    --------    -------
+optane    Linux 3.10.0-  3885 1.0290 3.6020   27.3        85.9
+optane    Linux 3.10.0-  3885 1.0300 3.6040   27.2        84.8
+optane    Linux 3.10.0-  3885 1.0290 3.6020   27.2        85.9
+[onkarp@darwin-fe2 results]$ make LIST=x86_64-linux-gnu/cn610*
+x86_64-linux-gnu: no data for Memory load parallelism
+x86_64-linux-gnu: lat_mem_rand = 93.689
+x86_64-linux-gnu: no data for Memory load parallelism
+x86_64-linux-gnu: lat_mem_rand = 91.374
+x86_64-linux-gnu: no data for Memory load parallelism
+x86_64-linux-gnu: lat_mem_rand = 93.391
+
+                 L M B E N C H  3 . 0   S U M M A R Y
+                 ------------------------------------
+		 (Alpha software, do not distribute)
+
+Argument "" isn't numeric in numeric gt (>) at ../scripts/getsummary line 944, <FD> line 5520.
+Argument "" isn't numeric in numeric gt (>) at ../scripts/getsummary line 944, <FD> line 5520.
+Argument "" isn't numeric in numeric gt (>) at ../scripts/getsummary line 944, <FD> line 5520.
+
+Processor, Processes - times in microseconds - smaller is better
+------------------------------------------------------------------------------
+Host                 OS  Mhz null null      open slct sig  sig  fork exec sh  
+                             call  I/O stat clos TCP  inst hndl proc proc proc
+--------- ------------- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
+cn610     Linux 3.10.0- 3696 0.20 0.25 2.38 3.04 4.18 0.28 1.10               
+cn610     Linux 3.10.0- 3696 0.21 0.25 2.58 3.27 4.42 0.28 1.10               
+cn610     Linux 3.10.0- 3696 0.19 0.25 2.36 3.03 4.41 0.28 1.10               
+
+Basic integer operations - times in nanoseconds - smaller is better
+-------------------------------------------------------------------
+Host                 OS  intgr intgr  intgr  intgr  intgr  
+                          bit   add    mul    div    mod   
+--------- ------------- ------ ------ ------ ------ ------ 
+cn610     Linux 3.10.0- 0.2700 0.0300 0.8400 7.3200 7.6500
+cn610     Linux 3.10.0- 0.2700 0.0300 0.8400 7.3300 7.6600
+cn610     Linux 3.10.0- 0.2900 0.0300 0.8800 7.3200 8.1000
+
+Basic float operations - times in nanoseconds - smaller is better
+-----------------------------------------------------------------
+Host                 OS  float  float  float  float
+                         add    mul    div    bogo
+--------- ------------- ------ ------ ------ ------ 
+cn610     Linux 3.10.0- 1.0800 1.0800 3.1000 0.8100
+cn610     Linux 3.10.0- 1.0800 1.0800 3.1000 0.8100
+cn610     Linux 3.10.0- 1.0800 1.0800 3.1000 0.8100
+
+Basic double operations - times in nanoseconds - smaller is better
+------------------------------------------------------------------
+Host                 OS  double double double double
+                         add    mul    div    bogo
+--------- ------------- ------  ------ ------ ------ 
+cn610     Linux 3.10.0- 1.0800 1.0800 3.9100 1.0800
+cn610     Linux 3.10.0- 1.0800 1.0800 3.9100 1.0800
+cn610     Linux 3.10.0- 1.0800 1.0800 3.9100 1.0800
+
+*Local* Communication latencies in microseconds - smaller is better
+---------------------------------------------------------------------
+Host                 OS 2p/0K  Pipe AF     UDP  RPC/   TCP  RPC/ TCP
+                        ctxsw       UNIX         UDP         TCP conn
+--------- ------------- ----- ----- ---- ----- ----- ----- ----- ----
+cn610     Linux 3.10.0-                  9.604  11.8  11.5  13.7  17.
+cn610     Linux 3.10.0-                  9.758  11.8  11.5  13.5  12.
+cn610     Linux 3.10.0-                  9.948  11.8  11.3  13.6  12.
+
+File & VM system latencies in microseconds - smaller is better
+-------------------------------------------------------------------------------
+Host                 OS   0K File      10K File     Mmap    Prot   Page   100fd
+                        Create Delete Create Delete Latency Fault  Fault  selct
+--------- ------------- ------ ------ ------ ------ ------- ----- ------- -----
+cn610     Linux 3.10.0-                               19.8K 0.425         0.767
+cn610     Linux 3.10.0-                               20.0K 0.452         0.818
+cn610     Linux 3.10.0-                               19.9K 0.434         0.773
+
+*Local* Communication bandwidths in MB/s - bigger is better
+-----------------------------------------------------------------------------
+Host                OS  Pipe AF    TCP  File   Mmap  Bcopy  Bcopy  Mem   Mem
+                             UNIX      reread reread (libc) (hand) read write
+--------- ------------- ---- ---- ---- ------ ------ ------ ------ ---- -----
+cn610     Linux 3.10.0-           7116 6382.7 6277.2 5519.2 5640.1 10.K 8355.
+cn610     Linux 3.10.0-           7364 4833.6 6339.1 5608.2 6065.7 12.K 8365.
+cn610     Linux 3.10.0-           7220 4829.6 6608.1 5521.8 6003.4 10.K 8339.
+
+Memory latencies in nanoseconds - smaller is better
+    (WARNING - may not be correct, check graphs)
+------------------------------------------------------------------------------
+Host                 OS   Mhz   L1 $   L2 $    Main mem    Rand mem    Guesses
+--------- -------------   ---   ----   ----    --------    --------    -------
+cn610     Linux 3.10.0-  3696 1.0830 3.7890   26.9        93.7
+cn610     Linux 3.10.0-  3696 1.0830 3.7890   26.8        91.4
+cn610     Linux 3.10.0-  3696 1.0830 3.7890   26.7        93.4
+[onkarp@darwin-fe2 results]$ 
+
