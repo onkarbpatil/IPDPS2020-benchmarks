@@ -1,0 +1,777 @@
+module mpi loaded
+1 modules loaded
+
+MPI:
+---
+Thread P#0_T#745372992 -- total duration: 110440.649640 ms, time spent in mpi: 2962.873140 ms (2.682774 %)
+	MPI_ISEND            :37 calls -- 4.278897 ms (0.003874 % of the thread runtime)
+	MPI_IRECV            :58 calls -- 1.391726 ms (0.001260 % of the thread runtime)
+	MPI_WAIT             :58 calls -- 148.936163 ms (0.134856 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 448.367653 ms (0.405981 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 21.053590 ms (0.019063 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 812.867348 ms (0.736022 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 1525.977763 ms (1.381717 % of the thread runtime)
+Thread P#1_T#3310923072 -- total duration: 110434.948458 ms, time spent in mpi: 2768.857357 ms (2.507229 %)
+	MPI_ISEND            :59 calls -- 4.764358 ms (0.004314 % of the thread runtime)
+	MPI_IRECV            :86 calls -- 1.865720 ms (0.001689 % of the thread runtime)
+	MPI_WAIT             :86 calls -- 10.476724 ms (0.009487 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 532.550658 ms (0.482230 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 10.864255 ms (0.009838 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.048659 ms (0.000044 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 2208.286983 ms (1.999627 % of the thread runtime)
+Thread P#10_T#2761960768 -- total duration: 110435.535071 ms, time spent in mpi: 19788.190114 ms (17.918318 %)
+	MPI_ISEND            :104 calls -- 11.114699 ms (0.010064 % of the thread runtime)
+	MPI_IRECV            :113 calls -- 2.433568 ms (0.002204 % of the thread runtime)
+	MPI_WAIT             :113 calls -- 3.901441 ms (0.003533 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 378.587483 ms (0.342813 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 10.294494 ms (0.009322 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 6222.147478 ms (5.634190 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 13159.710951 ms (11.916193 % of the thread runtime)
+Thread P#11_T#1076129088 -- total duration: 110437.424099 ms, time spent in mpi: 1781.514498 ms (1.613144 %)
+	MPI_ISEND            :71 calls -- 7.668825 ms (0.006944 % of the thread runtime)
+	MPI_IRECV            :74 calls -- 1.941877 ms (0.001758 % of the thread runtime)
+	MPI_WAIT             :74 calls -- 27.416017 ms (0.024825 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 757.036451 ms (0.685489 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 17.064266 ms (0.015452 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.053773 ms (0.000049 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 970.333289 ms (0.878627 % of the thread runtime)
+Thread P#12_T#2665848128 -- total duration: 110455.225508 ms, time spent in mpi: 2265.781090 ms (2.051312 %)
+	MPI_ISEND            :107 calls -- 14.692773 ms (0.013302 % of the thread runtime)
+	MPI_IRECV            :110 calls -- 2.345236 ms (0.002123 % of the thread runtime)
+	MPI_WAIT             :110 calls -- 2.621071 ms (0.002373 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 160.880773 ms (0.145652 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 43.210813 ms (0.039121 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.324451 ms (0.000294 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 2041.705973 ms (1.848447 % of the thread runtime)
+Thread P#13_T#3559648576 -- total duration: 110459.754364 ms, time spent in mpi: 3923.652802 ms (3.552111 %)
+	MPI_ISEND            :161 calls -- 20.956631 ms (0.018972 % of the thread runtime)
+	MPI_IRECV            :161 calls -- 3.169568 ms (0.002869 % of the thread runtime)
+	MPI_WAIT             :161 calls -- 32.253197 ms (0.029199 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 555.933639 ms (0.503291 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 0.801178 ms (0.000725 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.042143 ms (0.000038 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 3310.496446 ms (2.997016 % of the thread runtime)
+Thread P#14_T#1718496576 -- total duration: 110451.944762 ms, time spent in mpi: 4966.331371 ms (4.496373 %)
+	MPI_ISEND            :110 calls -- 16.889976 ms (0.015292 % of the thread runtime)
+	MPI_IRECV            :107 calls -- 2.472702 ms (0.002239 % of the thread runtime)
+	MPI_WAIT             :107 calls -- 22.666460 ms (0.020522 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 167.128188 ms (0.151313 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 22.065874 ms (0.019978 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.052305 ms (0.000047 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 4735.055866 ms (4.286983 % of the thread runtime)
+Thread P#15_T#1402703168 -- total duration: 110434.393985 ms, time spent in mpi: 7723.375564 ms (6.993632 %)
+	MPI_ISEND            :74 calls -- 9.451847 ms (0.008559 % of the thread runtime)
+	MPI_IRECV            :71 calls -- 1.802322 ms (0.001632 % of the thread runtime)
+	MPI_WAIT             :71 calls -- 23.143496 ms (0.020957 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 792.877160 ms (0.717962 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 16.791712 ms (0.015205 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.064175 ms (0.000058 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 6879.244852 ms (6.229259 % of the thread runtime)
+Thread P#16_T#4061326656 -- total duration: 110475.408104 ms, time spent in mpi: 12091.784670 ms (10.945227 %)
+	MPI_ISEND            :113 calls -- 13.371803 ms (0.012104 % of the thread runtime)
+	MPI_IRECV            :104 calls -- 2.302908 ms (0.002085 % of the thread runtime)
+	MPI_WAIT             :104 calls -- 20.617286 ms (0.018662 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 203.912862 ms (0.184578 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 3.057151 ms (0.002767 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 3915.219021 ms (3.543973 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 7933.303639 ms (7.181058 % of the thread runtime)
+Thread P#17_T#339217728 -- total duration: 110449.796841 ms, time spent in mpi: 10114.907680 ms (9.157923 %)
+	MPI_ISEND            :77 calls -- 10.397845 ms (0.009414 % of the thread runtime)
+	MPI_IRECV            :68 calls -- 1.764181 ms (0.001597 % of the thread runtime)
+	MPI_WAIT             :68 calls -- 49.823483 ms (0.045110 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 1043.916973 ms (0.945151 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 3.193974 ms (0.002892 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.065219 ms (0.000059 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 9005.746005 ms (8.153701 % of the thread runtime)
+Thread P#18_T#572304704 -- total duration: 110414.770808 ms, time spent in mpi: 9900.159686 ms (8.966336 %)
+	MPI_ISEND            :49 calls -- 3.895967 ms (0.003528 % of the thread runtime)
+	MPI_IRECV            :46 calls -- 1.052617 ms (0.000953 % of the thread runtime)
+	MPI_WAIT             :46 calls -- 4.889154 ms (0.004428 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 444.858110 ms (0.402897 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 32.251853 ms (0.029210 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.083840 ms (0.000076 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 9413.128145 ms (8.525244 % of the thread runtime)
+Thread P#19_T#212086080 -- total duration: 110411.677412 ms, time spent in mpi: 11565.411183 ms (10.474808 %)
+	MPI_ISEND            :77 calls -- 6.128671 ms (0.005551 % of the thread runtime)
+	MPI_IRECV            :68 calls -- 1.481455 ms (0.001342 % of the thread runtime)
+	MPI_WAIT             :68 calls -- 6.108569 ms (0.005533 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 740.187151 ms (0.670388 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 22.150259 ms (0.020062 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.050329 ms (0.000046 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 10789.304749 ms (9.771887 % of the thread runtime)
+Thread P#2_T#2103336256 -- total duration: 110421.348497 ms, time spent in mpi: 3601.864017 ms (3.261927 %)
+	MPI_ISEND            :40 calls -- 3.034512 ms (0.002748 % of the thread runtime)
+	MPI_IRECV            :55 calls -- 1.295561 ms (0.001173 % of the thread runtime)
+	MPI_WAIT             :55 calls -- 22.935093 ms (0.020771 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 57.260504 ms (0.051856 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 11.482043 ms (0.010398 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.092236 ms (0.000084 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 3505.764068 ms (3.174897 % of the thread runtime)
+Thread P#20_T#364117312 -- total duration: 110431.873973 ms, time spent in mpi: 17662.386571 ms (15.993921 %)
+	MPI_ISEND            :52 calls -- 5.393334 ms (0.004884 % of the thread runtime)
+	MPI_IRECV            :43 calls -- 1.162725 ms (0.001053 % of the thread runtime)
+	MPI_WAIT             :43 calls -- 16.395545 ms (0.014847 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 213.816459 ms (0.193618 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 27.456124 ms (0.024862 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 5844.280985 ms (5.292205 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 11553.881399 ms (10.462452 % of the thread runtime)
+Thread P#21_T#1586208064 -- total duration: 110422.660233 ms, time spent in mpi: 14212.624177 ms (12.871112 %)
+	MPI_ISEND            :80 calls -- 5.980068 ms (0.005416 % of the thread runtime)
+	MPI_IRECV            :65 calls -- 1.329216 ms (0.001204 % of the thread runtime)
+	MPI_WAIT             :65 calls -- 11.177727 ms (0.010123 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 931.295658 ms (0.843392 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 21.747017 ms (0.019694 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.078473 ms (0.000071 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 13241.016018 ms (11.991213 % of the thread runtime)
+Thread P#22_T#1811656000 -- total duration: 110448.416026 ms, time spent in mpi: 167.288821 ms (0.151463 %)
+	MPI_ISEND            :122 calls -- 8.321192 ms (0.007534 % of the thread runtime)
+	MPI_IRECV            :95 calls -- 1.836538 ms (0.001663 % of the thread runtime)
+	MPI_WAIT             :95 calls -- 4.325654 ms (0.003916 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 124.576608 ms (0.112792 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 16.141098 ms (0.014614 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.050841 ms (0.000046 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 12.036890 ms (0.010898 % of the thread runtime)
+Thread P#23_T#2266279232 -- total duration: 110430.656478 ms, time spent in mpi: 3384.356337 ms (3.064689 %)
+	MPI_ISEND            :83 calls -- 7.062635 ms (0.006396 % of the thread runtime)
+	MPI_IRECV            :62 calls -- 1.558929 ms (0.001412 % of the thread runtime)
+	MPI_WAIT             :62 calls -- 4.617428 ms (0.004181 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 1008.832846 ms (0.913544 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 30.381648 ms (0.027512 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.065226 ms (0.000059 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 2331.837625 ms (2.111585 % of the thread runtime)
+Thread P#24_T#1090035008 -- total duration: 110428.112218 ms, time spent in mpi: 9206.962456 ms (8.337517 %)
+	MPI_ISEND            :55 calls -- 7.291538 ms (0.006603 % of the thread runtime)
+	MPI_IRECV            :40 calls -- 1.026306 ms (0.000929 % of the thread runtime)
+	MPI_WAIT             :40 calls -- 125.992797 ms (0.114095 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 3489.094125 ms (3.159607 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 23.374271 ms (0.021167 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.110591 ms (0.000100 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 5560.072828 ms (5.035016 % of the thread runtime)
+Thread P#25_T#3848842560 -- total duration: 110422.625383 ms, time spent in mpi: 15619.317336 ms (14.145033 %)
+	MPI_ISEND            :86 calls -- 11.488139 ms (0.010404 % of the thread runtime)
+	MPI_IRECV            :59 calls -- 1.488551 ms (0.001348 % of the thread runtime)
+	MPI_WAIT             :59 calls -- 59.686811 ms (0.054053 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 7067.732940 ms (6.400620 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 6.857167 ms (0.006210 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.047251 ms (0.000043 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 8472.016477 ms (7.672356 % of the thread runtime)
+Thread P#26_T#4212903232 -- total duration: 110422.139654 ms, time spent in mpi: 12311.865979 ms (11.149817 %)
+	MPI_ISEND            :58 calls -- 10.344588 ms (0.009368 % of the thread runtime)
+	MPI_IRECV            :37 calls -- 1.094538 ms (0.000991 % of the thread runtime)
+	MPI_WAIT             :37 calls -- 239.339313 ms (0.216749 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 3063.349515 ms (2.774217 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 32.511580 ms (0.029443 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.056196 ms (0.000051 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 8965.170249 ms (8.118997 % of the thread runtime)
+Thread P#3_T#1662131520 -- total duration: 110440.548542 ms, time spent in mpi: 5652.098755 ms (5.117775 %)
+	MPI_ISEND            :62 calls -- 8.181982 ms (0.007408 % of the thread runtime)
+	MPI_IRECV            :83 calls -- 1.806488 ms (0.001636 % of the thread runtime)
+	MPI_WAIT             :83 calls -- 42.604786 ms (0.038577 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 701.916816 ms (0.635561 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 18.406430 ms (0.016666 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.056522 ms (0.000051 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 4879.125731 ms (4.417875 % of the thread runtime)
+Thread P#4_T#3420392768 -- total duration: 110434.821647 ms, time spent in mpi: 7062.380478 ms (6.395067 %)
+	MPI_ISEND            :95 calls -- 8.932628 ms (0.008089 % of the thread runtime)
+	MPI_IRECV            :122 calls -- 2.443951 ms (0.002213 % of the thread runtime)
+	MPI_WAIT             :122 calls -- 36.875140 ms (0.033391 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 169.642117 ms (0.153613 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 0.056271 ms (0.000051 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.089777 ms (0.000081 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 6844.340594 ms (6.197629 % of the thread runtime)
+Thread P#5_T#411528512 -- total duration: 110435.944031 ms, time spent in mpi: 8620.040695 ms (7.805467 %)
+	MPI_ISEND            :65 calls -- 5.140145 ms (0.004654 % of the thread runtime)
+	MPI_IRECV            :80 calls -- 1.607734 ms (0.001456 % of the thread runtime)
+	MPI_WAIT             :80 calls -- 1.331249 ms (0.001205 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 597.038544 ms (0.540620 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 11.160439 ms (0.010106 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.046892 ms (0.000042 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 8003.715692 ms (7.247383 % of the thread runtime)
+Thread P#6_T#2052312384 -- total duration: 110443.132969 ms, time spent in mpi: 9574.390869 ms (8.669069 %)
+	MPI_ISEND            :43 calls -- 7.727838 ms (0.006997 % of the thread runtime)
+	MPI_IRECV            :52 calls -- 1.360728 ms (0.001232 % of the thread runtime)
+	MPI_WAIT             :52 calls -- 43.455225 ms (0.039346 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 304.891466 ms (0.276062 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 10.429578 ms (0.009443 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.107002 ms (0.000097 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 9206.419032 ms (8.335891 % of the thread runtime)
+Thread P#7_T#1262746944 -- total duration: 110439.985856 ms, time spent in mpi: 10249.557796 ms (9.280658 %)
+	MPI_ISEND            :68 calls -- 9.978950 ms (0.009036 % of the thread runtime)
+	MPI_IRECV            :77 calls -- 1.919403 ms (0.001738 % of the thread runtime)
+	MPI_WAIT             :77 calls -- 9.449991 ms (0.008557 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 664.848096 ms (0.601999 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 11.472815 ms (0.010388 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.060158 ms (0.000054 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 9551.828383 ms (8.648886 % of the thread runtime)
+Thread P#8_T#99106112 -- total duration: 110431.192032 ms, time spent in mpi: 16415.615295 ms (14.865017 %)
+	MPI_ISEND            :46 calls -- 6.212725 ms (0.005626 % of the thread runtime)
+	MPI_IRECV            :49 calls -- 1.142897 ms (0.001035 % of the thread runtime)
+	MPI_WAIT             :49 calls -- 21.748583 ms (0.019694 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 231.375134 ms (0.209520 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 30.072362 ms (0.027232 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 5073.371549 ms (4.594147 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 11051.692045 ms (10.007763 % of the thread runtime)
+Thread P#9_T#664419648 -- total duration: 110446.335723 ms, time spent in mpi: 12929.457162 ms (11.706551 %)
+	MPI_ISEND            :68 calls -- 10.673703 ms (0.009664 % of the thread runtime)
+	MPI_IRECV            :77 calls -- 1.934576 ms (0.001752 % of the thread runtime)
+	MPI_WAIT             :77 calls -- 40.141315 ms (0.036345 % of the thread runtime)
+	MPI_WAITALL          :10 calls -- 1081.826426 ms (0.979504 % of the thread runtime)
+	MPI_BARRIER          :1 calls -- 17.105767 ms (0.015488 % of the thread runtime)
+	MPI_REDUCE           :1 calls -- 0.057651 ms (0.000052 % of the thread runtime)
+	MPI_ALLREDUCE        :2 calls -- 11777.717724 ms (10.663747 % of the thread runtime)
+
+
+CT_Process #0 -- 	58 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1578929	total: 91577888
+	Time spent sending messages (ms):	min: 1.751490	max: 240.115857	average: 55.705988	total: 3230.947329
+	Time spent computing while sending messages (ms):	min: 0.036130	max: 11.186035	average: 2.766748	total: 160.471398
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.682916	max: 233.729371	average: 52.861161	total: 3065.947363
+	Time spent receiving messages (ms):	min: 93.235727	max: 14263.278478	average: 5723.482133	total: 331961.963734
+	Time spent computing while receiving messages (ms):	min: 93.175599	max: 14259.378201	average: 5720.890273	total: 331811.635845
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015294	max: 40.545646	average: 2.567865	total: 148.936163
+
+CT_Process #1 -- 	86 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1248116	total: 107338000
+	Time spent sending messages (ms):	min: 2.289578	max: 117.295999	average: 32.527349	total: 2797.351974
+	Time spent computing while sending messages (ms):	min: 0.031067	max: 12.800580	average: 3.018073	total: 259.554264
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.207447	max: 117.055332	average: 29.449517	total: 2532.658495
+	Time spent receiving messages (ms):	min: 52.327679	max: 14287.533487	average: 5998.117228	total: 515838.081580
+	Time spent computing while receiving messages (ms):	min: 52.266964	max: 14287.498525	average: 5997.973711	total: 515825.739136
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015364	max: 5.222455	average: 0.121822	total: 10.476724
+
+CT_Process #2 -- 	55 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1395272	total: 76739984
+	Time spent sending messages (ms):	min: 3.217918	max: 250.349887	average: 51.094851	total: 2810.216811
+	Time spent computing while sending messages (ms):	min: 0.076740	max: 9.924144	average: 3.174167	total: 174.579204
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.921233	max: 243.860200	average: 47.863542	total: 2632.494834
+	Time spent receiving messages (ms):	min: 30.809145	max: 14283.799082	average: 6000.593411	total: 330032.637601
+	Time spent computing while receiving messages (ms):	min: 30.746699	max: 14283.758285	average: 6000.152854	total: 330008.406947
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015208	max: 4.877227	average: 0.417002	total: 22.935093
+
+CT_Process #3 -- 	83 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1292672	total: 107291776
+	Time spent sending messages (ms):	min: 5.784487	max: 117.344904	average: 39.029431	total: 3239.442785
+	Time spent computing while sending messages (ms):	min: 0.105022	max: 12.179638	average: 2.582117	total: 214.315673
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.937390	max: 117.074456	average: 36.336016	total: 3015.889367
+	Time spent receiving messages (ms):	min: 61.599849	max: 14261.793101	average: 6210.633409	total: 515482.572958
+	Time spent computing while receiving messages (ms):	min: 61.418809	max: 14261.759897	average: 6210.098334	total: 515438.161684
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.014925	max: 11.722438	average: 0.513311	total: 42.604786
+
+CT_Process #4 -- 	122 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1008834	total: 123077792
+	Time spent sending messages (ms):	min: 2.613972	max: 223.013323	average: 52.258673	total: 6375.558095
+	Time spent computing while sending messages (ms):	min: 0.047092	max: 18.498510	average: 2.830476	total: 345.318055
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.404123	max: 213.513523	average: 49.342316	total: 6019.762577
+	Time spent receiving messages (ms):	min: 24.092826	max: 14300.917520	average: 6434.908390	total: 785058.823543
+	Time spent computing while receiving messages (ms):	min: 24.042546	max: 14300.884523	average: 6434.586102	total: 785019.504452
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015210	max: 13.238409	average: 0.302255	total: 36.875140
+
+CT_Process #5 -- 	80 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1155673	total: 92453872
+	Time spent sending messages (ms):	min: 3.019146	max: 114.810811	average: 31.926019	total: 2554.081488
+	Time spent computing while sending messages (ms):	min: 0.079924	max: 14.338839	average: 2.941080	total: 235.286388
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.659196	max: 114.452499	average: 28.908427	total: 2312.674153
+	Time spent receiving messages (ms):	min: 20.152090	max: 14284.695003	average: 6417.133963	total: 513370.717043
+	Time spent computing while receiving messages (ms):	min: 20.098439	max: 14284.656344	average: 6417.097226	total: 513367.778060
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015161	max: 0.039981	average: 0.016641	total: 1.331249
+
+CT_Process #6 -- 	52 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1474880	total: 76693760
+	Time spent sending messages (ms):	min: 5.854594	max: 243.341176	average: 53.695299	total: 2792.155544
+	Time spent computing while sending messages (ms):	min: 0.173747	max: 8.213090	average: 2.915947	total: 151.629239
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 5.659422	max: 237.014831	average: 50.625319	total: 2632.516613
+	Time spent receiving messages (ms):	min: 70.763693	max: 14280.898240	average: 6317.438519	total: 328506.802998
+	Time spent computing while receiving messages (ms):	min: 70.559107	max: 14276.381733	average: 6316.576674	total: 328461.987045
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015508	max: 24.277592	average: 0.835677	total: 43.455225
+
+CT_Process #7 -- 	77 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1200099	total: 92407648
+	Time spent sending messages (ms):	min: 1.726639	max: 107.667780	average: 29.006049	total: 2233.465738
+	Time spent computing while sending messages (ms):	min: 0.062907	max: 13.121978	average: 2.934529	total: 225.958771
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.643966	max: 107.316855	average: 25.942016	total: 1997.535220
+	Time spent receiving messages (ms):	min: 55.233589	max: 14271.051753	average: 6646.985704	total: 511817.899192
+	Time spent computing while receiving messages (ms):	min: 55.080129	max: 14271.018967	average: 6646.838049	total: 511806.529798
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015060	max: 5.584424	average: 0.122727	total: 9.449991
+
+CT_Process #8 -- 	49 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1262364	total: 61855856
+	Time spent sending messages (ms):	min: 3.098905	max: 309.175850	average: 59.703257	total: 2925.459580
+	Time spent computing while sending messages (ms):	min: 0.076500	max: 12.157239	average: 2.971600	total: 145.608397
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.890796	max: 302.336231	average: 56.596869	total: 2773.246588
+	Time spent receiving messages (ms):	min: 20.639752	max: 14277.306766	average: 6658.179154	total: 326250.778549
+	Time spent computing while receiving messages (ms):	min: 20.591062	max: 14277.272554	average: 6657.711981	total: 326227.887069
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015124	max: 7.863451	average: 0.443849	total: 21.748583
+
+CT_Process #9 -- 	77 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1392797	total: 107245408
+	Time spent sending messages (ms):	min: 2.951129	max: 122.832643	average: 39.807099	total: 3065.146599
+	Time spent computing while sending messages (ms):	min: 0.201282	max: 13.273075	average: 2.587816	total: 199.261852
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.662309	max: 117.294194	average: 37.068761	total: 2854.294569
+	Time spent receiving messages (ms):	min: 105.044381	max: 14260.168156	average: 6651.160398	total: 512139.350623
+	Time spent computing while receiving messages (ms):	min: 104.966670	max: 14260.124859	average: 6650.613958	total: 512097.274732
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015518	max: 14.879418	average: 0.521316	total: 40.141315
+
+CT_Process #10 -- 	113 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1088772	total: 123031280
+	Time spent sending messages (ms):	min: 2.568232	max: 243.916415	average: 57.087754	total: 6450.916170
+	Time spent computing while sending messages (ms):	min: 0.079148	max: 16.332424	average: 2.911277	total: 328.974267
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.388947	max: 243.808895	average: 54.061420	total: 6108.940494
+	Time spent receiving messages (ms):	min: 72.222563	max: 14288.837663	average: 6903.291125	total: 780071.897170
+	Time spent computing while receiving messages (ms):	min: 72.172736	max: 14288.804013	average: 6903.235063	total: 780065.562161
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015463	max: 1.993739	average: 0.034526	total: 3.901441
+
+CT_Process #11 -- 	74 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1248750	total: 92407504
+	Time spent sending messages (ms):	min: 2.762972	max: 114.718107	average: 32.151499	total: 2379.210906
+	Time spent computing while sending messages (ms):	min: 0.096150	max: 11.920441	average: 3.060619	total: 226.485785
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.747202	max: 114.421585	average: 28.979557	total: 2144.487208
+	Time spent receiving messages (ms):	min: 40.752833	max: 14289.883132	average: 6895.138832	total: 510240.273584
+	Time spent computing while receiving messages (ms):	min: 40.694277	max: 14289.842566	average: 6894.742104	total: 510210.915690
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.016854	max: 8.239193	average: 0.370487	total: 27.416017
+
+CT_Process #12 -- 	110 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1118045	total: 122985056
+	Time spent sending messages (ms):	min: 2.701638	max: 1302.417141	average: 131.790502	total: 14496.955178
+	Time spent computing while sending messages (ms):	min: 0.136593	max: 14.671174	average: 2.375651	total: 261.321616
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.489910	max: 1302.197596	average: 129.283992	total: 14221.239104
+	Time spent receiving messages (ms):	min: 43.397640	max: 14272.377907	average: 7073.703731	total: 778107.410382
+	Time spent computing while receiving messages (ms):	min: 43.349849	max: 14272.336919	average: 7073.658582	total: 778102.444075
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015317	max: 0.265494	average: 0.023828	total: 2.621071
+
+CT_Process #13 -- 	161 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 862092	total: 138796912
+	Time spent sending messages (ms):	min: 2.330695	max: 1302.596710	average: 103.451203	total: 16655.643622
+	Time spent computing while sending messages (ms):	min: 0.076373	max: 12.713816	average: 2.710504	total: 436.391221
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.220076	max: 1302.260800	average: 100.614622	total: 16198.954216
+	Time spent receiving messages (ms):	min: 44.311317	max: 14284.424364	average: 7328.308100	total: 1179857.604078
+	Time spent computing while receiving messages (ms):	min: 44.191896	max: 14284.389676	average: 7328.088083	total: 1179822.181313
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.014914	max: 12.614899	average: 0.200330	total: 32.253197
+
+CT_Process #14 -- 	107 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1010721	total: 108147152
+	Time spent sending messages (ms):	min: 2.669987	max: 1302.382822	average: 129.080241	total: 13811.585833
+	Time spent computing while sending messages (ms):	min: 0.105074	max: 13.418195	average: 2.593824	total: 277.539178
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.419427	max: 1302.183305	average: 126.340014	total: 13518.381513
+	Time spent receiving messages (ms):	min: 40.059782	max: 14287.530073	average: 7256.236761	total: 776417.333411
+	Time spent computing while receiving messages (ms):	min: 39.854858	max: 14287.496317	average: 7256.001815	total: 776392.194249
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015097	max: 9.834865	average: 0.211836	total: 22.666460
+
+CT_Process #15 -- 	71 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1300863	total: 92361280
+	Time spent sending messages (ms):	min: 4.094940	max: 1302.548272	average: 142.550034	total: 10121.052390
+	Time spent computing while sending messages (ms):	min: 0.217529	max: 9.598713	average: 2.826255	total: 200.664115
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.953907	max: 1302.241503	average: 139.593133	total: 9911.112454
+	Time spent receiving messages (ms):	min: 63.349895	max: 14268.476735	average: 7158.751185	total: 508271.334141
+	Time spent computing while receiving messages (ms):	min: 63.087555	max: 14268.435763	average: 7158.399836	total: 508246.388323
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015001	max: 11.164746	average: 0.325965	total: 23.143496
+
+CT_Process #16 -- 	104 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1039432	total: 108100928
+	Time spent sending messages (ms):	min: 3.338828	max: 1312.933422	average: 170.927267	total: 17776.435780
+	Time spent computing while sending messages (ms):	min: 0.074851	max: 15.972288	average: 2.834245	total: 294.761470
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 3.133482	max: 1302.333172	average: 167.961959	total: 17468.043786
+	Time spent receiving messages (ms):	min: 30.322910	max: 14293.387002	average: 7447.492821	total: 774539.253358
+	Time spent computing while receiving messages (ms):	min: 30.265886	max: 14293.353105	average: 7447.272434	total: 774516.333164
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015720	max: 18.389937	average: 0.198243	total: 20.617286
+
+CT_Process #17 -- 	68 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1140049	total: 77523376
+	Time spent sending messages (ms):	min: 2.436113	max: 1302.455836	average: 142.246049	total: 9672.731354
+	Time spent computing while sending messages (ms):	min: 0.101012	max: 11.642174	average: 2.848473	total: 193.696180
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.674944	max: 1302.212027	average: 139.241986	total: 9468.455028
+	Time spent receiving messages (ms):	min: 83.422585	max: 14290.480854	average: 7456.755538	total: 507059.376586
+	Time spent computing while receiving messages (ms):	min: 83.187646	max: 14290.444881	average: 7455.996896	total: 507007.788922
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015085	max: 31.075480	average: 0.732698	total: 49.823483
+
+CT_Process #18 -- 	46 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1666247	total: 76647392
+	Time spent sending messages (ms):	min: 4.592183	max: 243.403761	average: 71.726273	total: 3299.408554
+	Time spent computing while sending messages (ms):	min: 0.285305	max: 8.726335	average: 3.143878	total: 144.618382
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.594358	max: 237.663559	average: 68.506013	total: 3151.276606
+	Time spent receiving messages (ms):	min: 61.936763	max: 14266.871949	average: 7072.664971	total: 325342.588679
+	Time spent computing while receiving messages (ms):	min: 61.886982	max: 14266.835821	average: 7072.535802	total: 325336.646908
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015505	max: 3.992614	average: 0.106286	total: 4.889154
+
+CT_Process #19 -- 	68 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1358252	total: 92361136
+	Time spent sending messages (ms):	min: 1.715024	max: 117.529332	average: 42.532538	total: 2892.212577
+	Time spent computing while sending messages (ms):	min: 0.061677	max: 11.770921	average: 3.175776	total: 215.952774
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.630133	max: 117.264839	average: 39.283324	total: 2671.266019
+	Time spent receiving messages (ms):	min: 26.065952	max: 14278.247680	average: 7443.820148	total: 506179.770064
+	Time spent computing while receiving messages (ms):	min: 26.012298	max: 14276.471450	average: 7443.708530	total: 506172.180040
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015290	max: 1.756175	average: 0.089832	total: 6.108569
+
+CT_Process #20 -- 	43 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1437429	total: 61809488
+	Time spent sending messages (ms):	min: 3.003427	max: 260.966353	average: 72.971689	total: 3137.782645
+	Time spent computing while sending messages (ms):	min: 0.075573	max: 10.396496	average: 3.233260	total: 139.030186
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.579406	max: 255.303988	average: 69.634488	total: 2994.282978
+	Time spent receiving messages (ms):	min: 36.836440	max: 14277.736950	average: 7529.431176	total: 323765.540570
+	Time spent computing while receiving messages (ms):	min: 36.657182	max: 14277.695326	average: 7529.022844	total: 323747.982300
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015552	max: 14.035477	average: 0.381292	total: 16.395545
+
+CT_Process #21 -- 	65 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1420229	total: 92314912
+	Time spent sending messages (ms):	min: 2.849870	max: 1302.642549	average: 162.383977	total: 10554.958531
+	Time spent computing while sending messages (ms):	min: 0.266829	max: 11.947024	average: 2.858878	total: 185.827072
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.646819	max: 1302.275254	average: 159.439465	total: 10363.565243
+	Time spent receiving messages (ms):	min: 88.342606	max: 14269.990622	average: 7768.027914	total: 504921.814422
+	Time spent computing while receiving messages (ms):	min: 88.289693	max: 14269.935728	average: 7767.835500	total: 504909.307479
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.014881	max: 4.620846	average: 0.171965	total: 11.177727
+
+CT_Process #22 -- 	95 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1137414	total: 108054416
+	Time spent sending messages (ms):	min: 3.653034	max: 1312.132362	average: 194.386350	total: 18466.703210
+	Time spent computing while sending messages (ms):	min: 0.074675	max: 18.254940	average: 2.936212	total: 278.940142
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.609212	max: 1302.318659	average: 191.365380	total: 18179.711088
+	Time spent receiving messages (ms):	min: 30.010722	max: 14284.899645	average: 8093.334611	total: 768866.788071
+	Time spent computing while receiving messages (ms):	min: 29.959415	max: 14284.864804	average: 8093.269746	total: 768860.625879
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015172	max: 2.610918	average: 0.045533	total: 4.325654
+
+CT_Process #23 -- 	62 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1249629	total: 77477008
+	Time spent sending messages (ms):	min: 2.894413	max: 1302.497099	average: 158.665010	total: 9837.230638
+	Time spent computing while sending messages (ms):	min: 0.094566	max: 13.945892	average: 2.902544	total: 179.957719
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 1.729928	max: 1302.226602	average: 155.654572	total: 9650.583482
+	Time spent receiving messages (ms):	min: 81.579494	max: 14269.522229	average: 8116.175727	total: 503202.895061
+	Time spent computing while receiving messages (ms):	min: 81.516792	max: 14269.486572	average: 8116.076108	total: 503196.718704
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015585	max: 3.604316	average: 0.074475	total: 4.617428
+
+CT_Process #24 -- 	40 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1544081	total: 61763264
+	Time spent sending messages (ms):	min: 4.404307	max: 1307.317003	average: 226.875656	total: 9075.026228
+	Time spent computing while sending messages (ms):	min: 0.419709	max: 6.814450	average: 3.198030	total: 127.921193
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 3.869202	max: 1302.304161	average: 223.512628	total: 8940.505125
+	Time spent receiving messages (ms):	min: 549.391918	max: 14264.376789	average: 8129.294179	total: 325171.767145
+	Time spent computing while receiving messages (ms):	min: 549.178612	max: 14259.698559	average: 8126.118701	total: 325044.748042
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.015425	max: 33.312840	average: 3.149820	total: 125.992797
+
+CT_Process #25 -- 	59 messages sent
+	Size of messages (byte):	min: 8	max: 4945968	average: 1312386	total: 77430784
+	Time spent sending messages (ms):	min: 3.398030	max: 674.610350	average: 133.529309	total: 7878.229256
+	Time spent computing while sending messages (ms):	min: 0.058728	max: 12.103435	average: 2.974438	total: 175.491868
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 2.366242	max: 674.328022	average: 130.382197	total: 7692.549627
+	Time spent receiving messages (ms):	min: 588.117683	max: 14288.120739	average: 8683.410134	total: 512321.197930
+	Time spent computing while receiving messages (ms):	min: 588.077849	max: 14276.495573	average: 8682.373264	total: 512260.022568
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.014566	max: 28.679460	average: 1.011641	total: 59.686811
+
+CT_Process #26 -- 	37 messages sent
+	Size of messages (byte):	min: 8	max: 2472984	average: 1268252	total: 46925360
+	Time spent sending messages (ms):	min: 3.787686	max: 1302.690640	average: 242.647869	total: 8977.971162
+	Time spent computing while sending messages (ms):	min: 0.073735	max: 6.874745	average: 2.696789	total: 99.781203
+	Time spent in MPI_Send or waiting for a Isend to complete (ms):	min: 3.212670	max: 1302.289629	average: 239.697090	total: 8868.792346
+	Time spent receiving messages (ms):	min: 603.251618	max: 14259.884579	average: 8712.267698	total: 322353.904840
+	Time spent computing while receiving messages (ms):	min: 602.985437	max: 14259.854083	average: 8705.769486	total: 322113.470989
+	Time spent in MPI_Recv or waiting for a Irecv to complete (ms):	min: 0.014616	max: 81.823977	average: 6.468630	total: 239.339313
+
+	The communication matrix (message size) has been dumped in ./eztrace_stats_onkarp/communication_matrix_p2p.message_size.dat
+	The communication matrix (number of message) has been dumped in ./eztrace_stats_onkarp/communication_matrix_p2p.nb_messages.dat
+
+
+CT_Process #0 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 21.053590	max: 852.456192	average: 589.974675	total: 2359.898701
+
+CT_Process #1 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.048659	max: 1178.799220	average: 554.799974	total: 2219.199897
+
+CT_Process #2 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.092236	max: 1858.623437	average: 879.334587	total: 3517.338347
+
+CT_Process #3 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.056522	max: 2594.248495	average: 1224.397171	total: 4897.588683
+
+CT_Process #4 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.089777	max: 3481.234794	average: 1717.659667	total: 6870.638667
+
+CT_Process #5 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.046892	max: 4004.081541	average: 2003.730756	total: 8014.923023
+
+CT_Process #6 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.107002	max: 4665.783951	average: 2308.863160	total: 9235.452640
+
+CT_Process #7 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.060158	max: 4787.005547	average: 2390.840339	total: 9563.361356
+
+CT_Process #8 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 30.072362	max: 5586.073200	average: 4038.783989	total: 16155.135956
+
+CT_Process #9 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.057651	max: 5923.832274	average: 2948.720285	total: 11794.881142
+
+CT_Process #10 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 10.743313	max: 6697.373698	average: 4848.150435	total: 19392.601742
+
+CT_Process #11 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.053773	max: 523.049662	average: 247.987440	total: 991.949758
+
+CT_Process #12 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.324451	max: 1042.846511	average: 521.310309	total: 2085.241237
+
+CT_Process #13 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.042143	max: 1680.385060	average: 829.991377	total: 3319.965509
+
+CT_Process #14 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.052305	max: 2611.165583	average: 1189.293511	total: 4757.174045
+
+CT_Process #15 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.064175	max: 3471.864861	average: 1726.588016	total: 6906.352065
+
+CT_Process #16 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 11.738940	max: 4023.195874	average: 2965.065400	total: 11860.261600
+
+CT_Process #17 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.065219	max: 4523.478310	average: 2254.406599	total: 9017.626397
+
+CT_Process #18 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.083840	max: 4709.551390	average: 2361.365959	total: 9445.463838
+
+CT_Process #19 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.050329	max: 5488.132803	average: 2707.550529	total: 10830.202118
+
+CT_Process #20 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 40.315482	max: 5857.603793	average: 4359.619467	total: 17438.477866
+
+CT_Process #21 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.078473	max: 6631.430043	average: 3315.710377	total: 13262.841508
+
+CT_Process #22 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.050841	max: 32.003566	average: 11.022824	total: 44.091297
+
+CT_Process #23 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.065226	max: 1226.430816	average: 590.571125	total: 2362.284499
+
+CT_Process #24 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.110591	max: 2894.583620	average: 1398.067673	total: 5592.270693
+
+CT_Process #25 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.047251	max: 4297.142308	average: 2124.352921	total: 8497.411686
+
+CT_Process #26 -- 	4 collective messages
+	Time past in a collective operation (ms):	min: 0.056196	max: 4544.329580	average: 2249.434506	total: 8997.738025
+	The communication matrix (collective messages size) has been dumped in ./eztrace_stats_onkarp/communication_matrix_collective.message_size.dat
+	The communication matrix (number of collective messages) has been dumped in ./eztrace_stats_onkarp/communication_matrix_collective.nb_messages.dat
+
+	The distribution of message sizes has been dumped in ./eztrace_stats_onkarp/message_size.dat
+
+	The communication matrix (message size) has been dumped in ./eztrace_stats_onkarp/communication_matrix_all.message_size.dat
+	The communication matrix (number of message) has been dumped in ./eztrace_stats_onkarp/communication_matrix_all.nb_messages.dat
+
+PTHREAD_CORE
+------------
+
+Thread P#0_T#745372992:
+	time spent in pthread_join  : 0.053326 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #0
+	time spent in pthread_join  : 0.053326 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#1_T#3310923072:
+	time spent in pthread_join  : 0.070611 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #1
+	time spent in pthread_join  : 0.070611 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#10_T#2761960768:
+	time spent in pthread_join  : 0.039065 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #2
+	time spent in pthread_join  : 0.039065 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#11_T#1076129088:
+	time spent in pthread_join  : 0.041106 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #3
+	time spent in pthread_join  : 0.041106 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#12_T#2665848128:
+	time spent in pthread_join  : 0.036361 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #4
+	time spent in pthread_join  : 0.036361 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#13_T#3559648576:
+	time spent in pthread_join  : 0.035456 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #5
+	time spent in pthread_join  : 0.035456 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#14_T#1718496576:
+	time spent in pthread_join  : 0.038128 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #6
+	time spent in pthread_join  : 0.038128 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#15_T#1402703168:
+	time spent in pthread_join  : 0.041593 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #7
+	time spent in pthread_join  : 0.041593 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#16_T#4061326656:
+	time spent in pthread_join  : 0.037049 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #8
+	time spent in pthread_join  : 0.037049 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#17_T#339217728:
+	time spent in pthread_join  : 0.041811 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #9
+	time spent in pthread_join  : 0.041811 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#18_T#572304704:
+	time spent in pthread_join  : 0.038494 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #10
+	time spent in pthread_join  : 0.038494 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#19_T#212086080:
+	time spent in pthread_join  : 0.040748 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #11
+	time spent in pthread_join  : 0.040748 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#2_T#2103336256:
+	time spent in pthread_join  : 0.044276 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #12
+	time spent in pthread_join  : 0.044276 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#20_T#364117312:
+	time spent in pthread_join  : 0.036608 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #13
+	time spent in pthread_join  : 0.036608 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#21_T#1586208064:
+	time spent in pthread_join  : 0.040989 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #14
+	time spent in pthread_join  : 0.040989 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#22_T#1811656000:
+	time spent in pthread_join  : 0.037005 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #15
+	time spent in pthread_join  : 0.037005 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#23_T#2266279232:
+	time spent in pthread_join  : 0.037307 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #16
+	time spent in pthread_join  : 0.037307 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#24_T#1090035008:
+	time spent in pthread_join  : 0.034540 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #17
+	time spent in pthread_join  : 0.034540 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#25_T#3848842560:
+	time spent in pthread_join  : 0.042409 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #18
+	time spent in pthread_join  : 0.042409 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#26_T#4212903232:
+	time spent in pthread_join  : 0.038285 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #19
+	time spent in pthread_join  : 0.038285 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#3_T#1662131520:
+	time spent in pthread_join  : 0.055771 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #20
+	time spent in pthread_join  : 0.055771 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#4_T#3420392768:
+	time spent in pthread_join  : 0.038189 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #21
+	time spent in pthread_join  : 0.038189 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#5_T#411528512:
+	time spent in pthread_join  : 0.049094 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #22
+	time spent in pthread_join  : 0.049094 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#6_T#2052312384:
+	time spent in pthread_join  : 0.042948 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #23
+	time spent in pthread_join  : 0.042948 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#7_T#1262746944:
+	time spent in pthread_join  : 0.043094 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #24
+	time spent in pthread_join  : 0.043094 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#8_T#99106112:
+	time spent in pthread_join  : 0.103833 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #25
+	time spent in pthread_join  : 0.103833 ms
+	time spent in pthread_create: 0.000000 ms
+
+Thread P#9_T#664419648:
+	time spent in pthread_join  : 0.059831 ms
+	time spent in pthread_create: 0.000000 ms
+
+Total for CT_Process #26
+	time spent in pthread_join  : 0.059831 ms
+	time spent in pthread_create: 0.000000 ms
+17399 events handled
