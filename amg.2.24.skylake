@@ -1,0 +1,155 @@
+Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... done
+done
+Starting EZTrace... done
+done
+done
+done
+done
+done
+done
+done
+Starting EZTrace... done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+done
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (448, 896, 672)
+    (Px, Py, Pz) = (2, 4, 3)
+
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 4.209305 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 29.710000 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.354179 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 2.590000 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 103.668412 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 734.230000 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 7.653749e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 274.929761 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 2006.800000 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 17
+Final Relative Residual Norm = 4.505473e-06
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 4.906229e+08
+
+
+
+Figure of Merit (FOM_1): 3.871016e+08
+
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_19
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_11
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_6
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_20
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_22
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_3
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_4
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_15
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_5
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_17
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_8
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_21
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_7
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_18
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_13
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_9
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_14
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_1
+Unable to run the target
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_12
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_16
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_23
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_2
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_0
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_10
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Unable to run the target
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Unable to run the target
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Unable to run the target
+Unable to run the target
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
