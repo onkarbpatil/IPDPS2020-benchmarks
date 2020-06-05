@@ -1,0 +1,235 @@
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+--------------------------------------------------------------------------
+Failed to create a queue pair (QP):
+
+Hostname: optane
+Requested max number of outstanding WRs in the SQ:                1
+Requested max number of outstanding WRs in the RQ:                2
+Requested max number of SGEs in a WR in the SQ:                   1023
+Requested max number of SGEs in a WR in the RQ:                   1023
+Requested max number of data that can be posted inline to the SQ: 0
+Error:    Protocol not supported
+
+Check requested attributes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Open MPI has detected that there are UD-capable Verbs devices on your
+system, but none of them were able to be setup properly.  This may
+indicate a problem on this system.
+
+You job will continue, but Open MPI will ignore the "ud" oob component
+in this run.
+
+Hostname: optane
+--------------------------------------------------------------------------
+Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... Starting EZTrace... done
+Starting EZTrace... done
+done
+Starting EZTrace... done
+done
+Starting EZTrace... done
+done
+done
+Starting EZTrace... Starting EZTrace... done
+done
+Starting EZTrace... Starting EZTrace... done
+done
+Starting EZTrace... done
+done
+Starting EZTrace... Starting EZTrace... done
+Starting EZTrace... Starting EZTrace... Starting EZTrace... done
+done
+Starting EZTrace... done
+done
+Starting EZTrace... done
+Starting EZTrace... done
+Starting EZTrace... done
+done
+done
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+libi40iw-i40iw_ucreate_qp: failed to create QP, unsupported QP type: 0x4
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            optane
+  Device name:           i40iw0
+  Device vendor ID:      0x8086
+  Device vendor part ID: 14290
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           optane
+  Local device:         i40iw1
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+Running with these driver parameters:
+  solver ID    = 1
+
+  Laplacian_27pt:
+    (Nx, Ny, Nz) = (448, 896, 672)
+    (Px, Py, Pz) = (2, 4, 3)
+
+[optane:12855] 24 more processes have sent help message help-oob-ud.txt / create-qp-failed
+[optane:12855] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[optane:12855] 24 more processes have sent help message help-oob-ud.txt / no-ports-usable
+[optane:12855] 47 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[optane:12855] 23 more processes have sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+=============================================
+Generate Matrix:
+=============================================
+Spatial Operator:
+  wall clock time = 37.245315 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 209.470000 seconds
+  cpu MFLOPS      = 0.000000
+
+  RHS vector has unit components
+  Initial guess is 0
+=============================================
+IJ Vector Setup:
+=============================================
+RHS and Initial Guess:
+  wall clock time = 0.294724 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1.180000 seconds
+  cpu MFLOPS      = 0.000000
+
+=============================================
+Problem 1: AMG Setup Time:
+=============================================
+PCG Setup:
+  wall clock time = 195.923151 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 785.480000 seconds
+  cpu MFLOPS      = 0.000000
+
+
+FOM_Setup: nnz_AP / Setup Phase Time: 4.049813e+07
+
+=============================================
+Problem 1: AMG-PCG Solve Time:
+=============================================
+PCG Solve:
+  wall clock time = 375.227067 seconds
+  wall MFLOPS     = 0.000000
+  cpu clock time  = 1515.820000 seconds
+  cpu MFLOPS      = 0.000000
+
+
+Iterations = 17
+Final Relative Residual Norm = 4.505473e-06
+
+
+FOM_Solve: nnz_AP * Iterations / Solve Phase Time: 3.594806e+08
+
+
+
+Figure of Merit (FOM_1): 2.797350e+08
+
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_17
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_19
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_18
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_15
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_1
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_11
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_4
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_3
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_13
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_10
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_22
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_9
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_12
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_14
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_0
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_6
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_23
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_5
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_7
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_21
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_8
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_16
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_2
+Stopping EZTrace... saving trace  /home/onkarp/ipdps2020-benchmarks/memsys19-benchmarks/AMG/test//onkarp_eztrace_log_rank_20
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
+Failed to wait for open of the library, exiting after detaching child process...: File in wrong format
+Unable to run the target
